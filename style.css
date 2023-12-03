@@ -1,0 +1,105 @@
+#main_section {
+    height: 800px;
+    background-image: url(/images/spencer-davis-ilQmlVIMN4c-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#main_div {
+    width: 900px;
+    background-color: rgb(51, 47, 47, 0.8);
+    box-shadow: 2px 2px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px 0px;
+    margin: 0px auto;
+    position: relative;
+    top: 200px;
+}
+
+#main_div h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "Raleway";
+    margin: 0;
+}
+
+#main_div p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+#main_div a {
+    text-decoration: none;
+    background-color: rgb(255, 251, 0);
+    padding: 12px 24px;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 3px 8px rgb(68, 67, 67);
+
+}
+
+#main_div a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 251, 0);
+}
+
+
+#destinations {
+    display: flex;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 90%;
+    text-align: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    color: rgb(59, 65, 64);
+    font-size: 40px;
+    padding: 24px;
+    font-weight: 500;
+}
+
+.destination img {
+    border-radius: 10px;
+    box-shadow: 12px 12px 20px rgb(68, 67, 67);
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+    object-position: 0% 17%;
+}
+
+.destination strong {
+    color: rgb(110 76 57);
+}
+
+#highlights {
+    background: linear-gradient(180deg, rgb(202, 179, 165), rgb(255, 254, 224))
+}
+
+.destination p {
+    font-size: 24px;
+    margin: 20px 0px;
+    color: rgb(124, 123, 123);
+}
+
+.destination a {
+    text-decoration: none;
+}
+.destination img:hover{
+    width: 420px;
+    height: 210px;
+   
+}
