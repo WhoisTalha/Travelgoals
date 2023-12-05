@@ -99,7 +99,6 @@ h2 {
     text-decoration: none;
 }
 .destination img:hover{
-    width: 420px;
-    height: 210px;
+    transform: scale(1.3);
    
 }
